@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+}
+
+.list-item {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+
+.search {
+    width: 100px;
+    height: 20px;
+    color: black;
+}
+
+.searchicon {
+    color: black;
+}
+
+.button {
+    background-color: yellow;
+    padding: 2px;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.links:hover {
+    color: red;
+    font-size: 17px;
+}
+
+.controller {
+    margin-top: -50px;
+    text-align: center;
+}
+
+#gamernaut {
+    text-align: center;
+    margin-top: -15px;
+    font-size: 60px;
+}
+
+.neon {
+    width: 600px;
+}
+
+.homecontent {
+    margin: 105px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gaming {
+    width: 450px;
+    border-radius: 10px;
+}
+
+#intro {
+    text-align: justify;
+    font-size: large;
+    width: 100%;
+}
+
+.homeintro {
+    margin-left: 100px;
+}
+
+.head {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.gms {
+    width: 335px;
+}
+
+.bgrp,
+.bgrp1 {
+    display: flex;
+    margin-left: 17px;
+}
+
+.grp {
+    border: solid;
+    width: 360px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 25px;
+}
+
+.gamehead {
+    margin-top: 5px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tosite {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.tosite:hover {
+    background-color: rgb(54, 51, 51);
+    color: white;
+    font-weight: 600;
+}
+
+#ghead {
+    font-family: "Playwrite CU", system-ui;
+    font-size: 50px;
+}
+
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 990px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.image-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.genimg {
+    height: 285px;
+}
+
+.text-section {
+    flex: 2;
+    padding-left: 20px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 990px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    margin-bottom: 30px;
+}
+
+.info-box {
+    flex: 2;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.info-box h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.info-box p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.image-box {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.image-box img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pf{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pfimg{
+    width:700px;
+    height: 500px;
+}
+
+.iconCollections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5%
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    /* border: solid; */
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 10px;
+}
+
+.brands{
+    color: white;
+    font-size: 2rem;
+}
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right, rgb(128, 0, 255),rgb(0, 0, 255),rgb(0, 179, 255));
+}
+
+.icon:hover .brands{
+    color:white;
+    animation: rotate 3s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    20%{
+        transform: rotate(-40deg);
+    }
+    40%{
+        transform: rotate(40deg);
+    }
+    60%{
+        transform: rotate(-40deg);
+    }
+    80%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(-40deg);
+    }
+}
+
+footer{
+    margin: 8% 0px 0px 0px;
+}
+
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+
+.uparrow{
+    float:right;
+    margin: 0px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: red;
+border-radius: 10px;
+}
